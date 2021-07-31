@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import s from './ContactForm.module.css';
+import Button from '../Button/Button';
 
 class ContactForm extends Component {
   state = {
@@ -64,9 +65,7 @@ class ContactForm extends Component {
           />
         </label>
 
-        <button type="submit" className={s.button}>
-          Add contact
-        </button>
+        <Button type="submit">Add contact</Button>
       </form>
     );
   }
