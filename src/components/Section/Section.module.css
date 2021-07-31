@@ -1,0 +1,16 @@
+section {
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  background-color: rgb(255, 255, 233);
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #29a6af;
+  margin: 0px;
+  font-size: 26px;
+    font-weight: 700;
+}

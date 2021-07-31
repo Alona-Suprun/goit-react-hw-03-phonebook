@@ -1,0 +1,25 @@
+.list {
+    color: #29a6af;    
+    padding: 0px;
+}
+.item {
+   display: flex;
+   justify-content: space-between;
+   }
+.item:not(:last-child){
+    margin-bottom:10px;}
+.button {
+  border-color: #29a6af;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 10px 10px #29a6af inset, 0 0 0 0 orange;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.button:hover,
+.button:focus {
+  box-shadow: 0 0 5px 0 #29a6af inset, 0 0 10px 4px #29a6af;
+  color: orange;
+}
