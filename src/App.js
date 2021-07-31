@@ -23,7 +23,7 @@ class App extends Component {
       name: newContact.name,
       number: newContact.number,
     };
-    this.setState(({ contacts }) => ({ contacts: [...contacts, contact] }));
+    this.setState(({ contacts }) => ({ contacts: [contact, ...contacts] }));
   };
 
   filterContact = e => {
